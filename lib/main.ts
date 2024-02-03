@@ -1,4 +1,6 @@
 const sample = () => {
+  console.log("Sample");
+
   return "Sample";
 };
 
