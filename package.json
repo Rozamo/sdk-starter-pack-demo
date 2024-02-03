@@ -1,5 +1,5 @@
 {
-  "name": "sdk-starter-pack",
+  "name": "sdk-starter-pack-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -22,7 +22,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "postinstall": "husky",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
