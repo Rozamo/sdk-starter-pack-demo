@@ -1,5 +1,11 @@
 # sdk-starter-pack-demo
 
+## 0.0.6
+
+### Patch Changes
+
+- ee9880e: check change
+
 ## 0.0.5
 
 ### Patch Changes
