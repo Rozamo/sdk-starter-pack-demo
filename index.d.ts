@@ -1,3 +1,5 @@
-declare const sample: () => void;
+declare const sample1: () => void;
 
-export { sample };
+declare const sample2: () => void;
+
+export { sample1, sample2 };

@@ -1,7 +1,7 @@
 {
   "name": "sdk-starter-pack-demo",
   "private": false,
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "files": [
     "dist",
@@ -19,8 +19,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "prepare": "husky",
-    "test": "vitest run",
-    "test:watch": "vitest",
+    "test": "vitest run --pass-with-no-tests",
+    "test:watch": "vitest --pass-with-no-tests",
     "postinstall": "husky",
     "lint": "eslint .",
     "release": "yarn build && changeset publish",

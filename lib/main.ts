@@ -1,7 +1,4 @@
-const sample = () => {
-  console.log("Sample");
+import { sample1 } from "./sample1";
+import { sample2 } from "./sample2";
 
-  return "Sample";
-};
-
-export { sample };
+export { sample1, sample2 };
