@@ -23,7 +23,7 @@
     "test:watch": "vitest",
     "postinstall": "husky",
     "lint": "eslint .",
-    "release": "build && changeset publish",
+    "release": "yarn build && changeset publish",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
   },
