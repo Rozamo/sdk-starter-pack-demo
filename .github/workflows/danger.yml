@@ -29,6 +29,6 @@ jobs:
         uses: bahmutov/npm-install@v1.8.38
 
       - name: Run DangerJS
-        run: yarn danger ci --failOnErrors
+        run: yarn danger ci --failOnErrors --no-publish-check
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
