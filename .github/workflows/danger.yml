@@ -32,3 +32,6 @@ jobs:
         run: yarn danger ci
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACTOR: ${{ github.actor }}
+          PULL_REQUEST_USER_LOGIN: ${{ github.event.pull_request.user.login }}
+          PULL_REQUEST_USER_NAME: ${{ github.event.pull_request.user.name}}
