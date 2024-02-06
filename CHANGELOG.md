@@ -1,5 +1,14 @@
 # sdk-starter-pack-demo
 
+## 0.0.12
+
+### Patch Changes
+
+- e8cb2ff: asd
+- b57232e: chch
+- b8b956a: check
+- f815489: check
+
 ## 0.0.6
 
 ### Patch Changes
