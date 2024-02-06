@@ -29,9 +29,6 @@ jobs:
         uses: bahmutov/npm-install@v1.8.38
 
       - name: Run DangerJS
-        run: yarn danger ci
+        run: yarn danger ci --failOnErrors
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACTOR: ${{ github.actor }}
-          PULL_REQUEST_USER_LOGIN: ${{ github.event.pull_request.user.login }}
-          PULL_REQUEST_USER_NAME: ${{ github.event.pull_request.user.name}}
