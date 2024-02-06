@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Danger JS
-    if: (github.event.pull_request.user.name != 'github actions')
+    if: (github.event.pull_request.user.login != 'github-actions[bot]')
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
